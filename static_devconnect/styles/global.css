@@ -1,0 +1,57 @@
+:root{
+    --cor-preto: #000000;
+    --cor-verde-escuro:  #0F6201;
+    --cor-verde:         #7CBD39;
+    --cor-verde-claro:   #C7E97C;
+    --cor-amerlo:        #FFF9BE;
+    --cor-amarelo-claro: #FFFEEC;
+    --cor-branco:        #ffffff;
+
+    --borda: 3px solid var(--cor-verde-escuro);
+    --borda-arredondada: 3px;
+
+    --tamanho-fonte-lg:80px;
+    --tamanho-fonte-md:30px;
+    --tamanho-fonte-sm:18px;
+
+}
+
+@font-face {
+    font-family: Libertinus_Serif;
+    src: url(../fonts/Libertinus_Serif/LibertinusSerif-Bold.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-BoldItalic.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-Italic.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-Regular.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-SemiBold.ttf),
+    url(../fonts/Libertinus_Serif/LibertinusSerif-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: Emblema_One;
+    src: url(../fonts/Emblema_One/EmblemaOne-Regular.ttf);
+}
+
+/* SELETO GLOBAL */
+*{
+ font-family: "Libertinus_Serif", serif;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;/* o valor total do tamanho do elemento conta tanto com espaços internos e externos e borda*/
+}
+
+body{
+    background-color: var(--cor-amarelo-claro);
+}
+
+h1{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+input{
+    width: 100%;
+    height: 35px;
+    border: var(--borda);
+    background-color: var(--cor-amerlo);
+}
