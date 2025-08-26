@@ -1,0 +1,94 @@
+main{
+    background-color: var(--cor-amerlo-claro);
+    min-height: 100vh;
+    /* width: 100%; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div {
+    background-color: var(--cor-amerlo-claro);
+    width: 90%;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+/******************FORMULARIO********************/
+
+#formulario{
+    background-color: var(--cor-amerlo);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    gap: 7px;
+}
+
+#secao-login{
+   height: 60px;
+   background-color: var(--cor-amerlo);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.estilo-formulario{
+    border: var(--borda);
+    width: 100%;
+    max-width: 400px;
+    background-color: aquamarine;
+}
+
+#formulario > div{
+    width: 100%;
+}
+
+#formulario > p{
+    text-transform: uppercase;
+    font-size: var( --tamanho-fonte-sm);
+    color: plum;
+}
+
+#formulario > a, #secao-login > p > a{
+    text-decoration: none;
+    color: olivedrab;
+}
+
+#secao-login{
+    font-size: var(--tamanho-fonte-sm);
+}
+
+#formulario > div > label{
+    font-size: var(--tamanho-fonte-sm);
+    color: var(--cor-verde-escuro);
+}
+
+.formulario-botao-verde{
+    width: 100%;
+}
+
+#termos{
+    font-size: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.file-upload {
+    display: inline-block;
+    padding: 6px 12px;   /* deixei menor */
+    background-color: var(--cor-verde-escuro);
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+}

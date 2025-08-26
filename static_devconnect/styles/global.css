@@ -1,5 +1,5 @@
 :root{
-    --cor-preto: #000000;
+    --cor-preto:         #000000;
     --cor-verde-escuro:  #0F6201;
     --cor-verde:         #7CBD39;
     --cor-verde-claro:   #C7E97C;
@@ -7,7 +7,7 @@
     --cor-amarelo-claro: #FFFEEC;
     --cor-branco:        #ffffff;
 
-    --borda: 3px solid var(--cor-verde-escuro);
+    --borda: 2px solid var(--cor-verde-escuro);
     --borda-arredondada: 3px;
 
     --tamanho-fonte-lg:80px;
@@ -54,4 +54,15 @@ input{
     height: 35px;
     border: var(--borda);
     background-color: var(--cor-amerlo);
+}
+
+.formulario-botao-verde{
+    background-color: var(--cor-verde-escuro);
+    /* background-color: var(--cor-amerlo); */
+    border-radius: var(--borda-arredondada);
+    border: none;
+    height: 35px;
+
+    color: var(--cor-preto);
+    font-size: var(--tamanho-fonte-sm);
 }
