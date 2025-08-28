@@ -41,10 +41,10 @@ main > div{
 }
 
 .estilo-formulario{
-    border: var(--borda);
-    width: 100%;
+    /* border: var(--borda);
+    width: 100%; */
     max-width: 340px;
-    background-color: var(--cor-amarelo-claro);
+    /* background-color: var(--cor-amarelo-claro); */
 }
 
 #formulario > div{
