@@ -1,4 +1,4 @@
-main{
+main {
     width: 100%;
     /* height: 100vh; */
     background-color: var(--cor-amarelo);
@@ -7,7 +7,7 @@ main{
     margin-top: 30px;
 }
 
-.container-flex-publi{
+.container-flex-publi {
     /* background-color: black; */
     max-width: 900px;
     width: 70%;
@@ -20,7 +20,7 @@ main{
     gap: 10px;
 }
 
-#secao-story{
+#secao-story {
     background-color: var(--cor-verde-claro);
     width: 100%;
     max-width: 700px;
@@ -32,11 +32,11 @@ main{
     overflow-x: scroll;
 }
 
-#secao-story::-webkit-scrollbar{
+#secao-story::-webkit-scrollbar {
     width: 0;
 }
 
-.card-story{
+.card-story {
     /* width: 100%;
     max-width: 150px; */
     /* background-color: aqua; */
@@ -45,7 +45,7 @@ main{
     margin-top: 15px;
 }
 
-.card-story>a{
+.card-story>a {
     /* background-color: brown; */
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ main{
     margin-right: 10px;
 }
 
-.card-story>a>p{
+.card-story>a>p {
     color: var(--cor-verde-escuro);
     font-size: var(--tamanho-fonte-sm);
     text-transform: lowercase;
@@ -71,7 +71,7 @@ main{
     object-position: center;
 } */
 
-#secao-publi > form > footer{
+#secao-publi>form>footer {
     background-color: var(--cor-verde-claro);
     display: flex;
     justify-content: flex-end;
@@ -81,7 +81,8 @@ main{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-.formulario-botao-claro{
+
+.formulario-botao-claro {
     width: 100%;
     max-width: 135px;
     height: 40px;
@@ -89,8 +90,8 @@ main{
 
 /* SECAO PUBLICACOES */
 
-#publicacoes{
-    background-color: rgb(255, 255, 255);
+#publicacoes {
+    /* background-color: rgb(255, 255, 255); */
     width: 100%;
     height: 600px;
     /* border-radius: 10px; */
@@ -100,15 +101,15 @@ main{
     align-items: flex-start;
 }
 
-.card-publi{
+.card-publi {
     width: 100%;
     max-width: 700px;
-    height: 400px;
+    /* height: 400px; */
     background-color: var(--cor-branco);
     /* border-radius: 10px; */
 }
 
-.card-publi > header{
+.card-publi>header {
     height: 80px;
     /* background-color: aqua; */
     display: flex;
@@ -118,7 +119,7 @@ main{
     border-bottom: 5px solid var(--cor-verde-escuro);
 }
 
-.card-publi > header > a{
+.card-publi>header>a {
     display: flex;
     align-items: center;
     gap: 15px;
@@ -127,13 +128,13 @@ main{
     font-weight: 700;
 }
 
-.card-publi > figure {
+.card-publi>figure {
     width: 100%;
     /* background-color: brown; */
-    
+
 }
 
-.imagem-publi{
+.imagem-publi {
     object-fit: cover;
     object-position: center;
     width: 100%;
@@ -141,20 +142,21 @@ main{
     border-bottom: solid 5px var(--cor-verde-escuro);
 }
 
-.descricao-publicacao{
+.descricao-publicacao {
     display: flex;
     align-items: center;
     gap: 5px;
     font-size: var(--tamanho-fonte-md);
     font-weight: 500;
-    padding: 0   3%;
+    padding: 0 3%;
+    flex-wrap: wrap;
 }
 
-.descricao-publicacao > p{
+.descricao-publicacao>p {
     font-size: var(--tamanho-fonte-sm);
 }
 
-.interacoes-publicacao{
+.interacoes-publicacao {
     /* background-color: brown; */
     width: 88px;
     display: flex;
@@ -165,17 +167,24 @@ main{
     margin: 15px 3%;
 }
 
-.interacoes-publicacao > button{
+.interacoes-publicacao>button {
     border: none;
     background-color: transparent;
 }
 
-.interacoes-publicacao > span{
+.interacoes-publicacao>span {
     font-size: var(--tamanho-fonte-sm);
     font-weight: 500;
     color: var(--cor-preto);
 }
 
 .card-publi>button {
- margin: 15px 3%;
+    margin: 15px 3%;
+    background-color: transparent;
+    border: none;
+
+    font-size: var(--tamanho-fonte-sm);
+    font-weight: 400;
+    color: #d6d6d6;
+    cursor: pointer;
 }

@@ -12,7 +12,7 @@
 
     --tamanho-fonte-lg:30px;
     --tamanho-fonte-md:20px;
-    --tamanho-fonte-sm:10px;
+    --tamanho-fonte-sm:14px;
 
 }
 
@@ -137,7 +137,6 @@ input{
     object-position: center;
     border-radius: 50%;
     border: var(--borda);
-
 }
 
 
