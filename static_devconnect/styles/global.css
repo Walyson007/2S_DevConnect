@@ -119,6 +119,7 @@ input{
     object-fit: cover; /*redimensionar foto*/
     object-position: center;
     border-radius: 50%;
+    border: var(--cor-verde-escuro) solid 2px;
 }
 
 .foto-story{
@@ -133,6 +134,15 @@ input{
 .foto-publi{
     width: 40px;
     height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: var(--borda);
+}
+
+.foto-bio{
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;

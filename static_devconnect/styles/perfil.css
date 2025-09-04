@@ -1,0 +1,110 @@
+main {
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container-flex-perfil {
+    /* background-color: blue; */
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#secao-bio {
+    background-color: brown;
+    width: 100%;
+    /* max-width: 700px; */
+    /* height: 165px; */
+    min-height: 165px;
+    display: flex;
+    border-bottom: solid 2px var(--cor-verde-escuro);
+    /* padding: 15px; */
+    /* padding-top: 15px; */
+    gap: 60px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-informacoes>h2 {
+    width: 100%;
+    font-size: var(--tamanho-fonte-lg);
+}
+
+.card-bio {
+    /* background-color: bisque; */
+}
+
+.card-informacoes {
+    /* height: 200px; */
+    background-color: bisque;
+   column-gap: 21px;
+   row-gap: 4px;
+   width: 322px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.card-informacoes>div{
+    
+}
+
+/* .card-informacoes>p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    margin-right: 35px;
+    font-size: var(--tamanho-fonte-lm);
+} */
+
+.card{
+    height: 40px;
+    width: 200px;
+    /* background-color: blueviolet; */
+    color: var(--cor-verde-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-mensagem{
+    height: 250px;
+    max-width: 400px;
+    width: 100%;
+    background-color: var(--cor-verde-claro);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-mensagem > div{
+    height: 55%;
+    width: 100%;
+    background-color: var(--cor-amarelo);
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 502px){
+    .card-informacoes{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    #secao-bio{
+        text-align: center;
+    }
+}
